@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Logo</h1>
+      <button onclick="openNav()">Open</button>
+    </header>
+    <nav id="rightNav">
+      <div class="heading">
+        <h2>Apps Menu</h2>
+        <button onclick="closeNav()">Close</button>
+      </div>
+      <ul>
+        <li>Home</li>
+        <li>Team</li>
+        <li>Settings</li>
+      </ul>
+    </nav>
+    <div>
+      <h1>Welcome to JavaScript</h1>
+      <h1 id="name">My name is Afi</h1>
+      <div id="parentContainer">
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            praesentium pariatur doloremque cum quae, incidunt perferendis
+            laboriosam quis. Incidunt, iure.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            praesentium pariatur doloremque cum quae, incidunt perferendis
+            laboriosam quis. Incidunt, iure.
+          </p>
+        </div>
+        <button onclick="changeToBlue()">Change to blue</button>
+        <button onclick="changeToRed()">Change to red</button>
+        <button onclick="openModel('info')">Info</button>
+        <button onclick="openModel('warning')">Warning</button>
+        <button onclick="openModel('danger')">Danger</button>
+      </div>
+      <div id="model">
+        <div>
+          <h2 id="modelTitle">Error Alert</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quia
+            blanditiis deserunt, quae doloremque ad?
+          </p>
+        </div>
+        <button onclick="closeModel()">Okay</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
